@@ -1,0 +1,190 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script:regular&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+body {
+	background-color:  #6e700b85;
+}
+.wrapper {
+	min-height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #22444866;
+}
+h1 {
+	color: red;
+	font-family: cursive;
+	font-weight: 900;
+	font-size: 65px;
+	text-align: center;
+	margin: 60px 0px 60px 0px;
+	text-shadow: 10px 15px 10px rgb(11 57 71), -10px -10px 10px rgb(11 57 71);
+}
+h2 {
+	font-family: 'Philosopher';
+	font-weight: 900;
+	font-size: 20px;
+	color: #021109;
+}
+.block-scroll {
+	font-family: cursive;
+	font-weight: 900;
+	text-decoration: underline;
+	max-width: 350px;
+	max-height: 500px;
+	overflow: auto;
+	margin: 50px 0px 50px auto;
+	font-size: 25px;
+}
+.article__wrap {
+	color: aquamarine;
+	font-size: 25px;
+	text-decoration: underline;
+	margin: 20px 20px 20px 20px;
+}
+.wp-caption {
+	text-align: right;
+	font-family: 'Philosopher';
+	font-weight: 900;
+	font-size: 20px;
+	color: #021109;
+	margin: 0px 30px 0px 0px;
+}
+.block-position {
+	color: blue;
+	font-size: 22px;
+	margin: 30px 0px 30px 0px;
+	font-family: 'Marck Script';
+	font-weight: 900;
+	
+}
+.block-position p {
+	margin: 30px 0px 30px 0px;
+	padding: 10px;
+}
+.right {
+	color: brown;
+	text-align: right;
+	font-size: 25px;
+	text-transform: capitalize;
+	font-family: 'Philosopher';
+}
+.left {
+	color: #faf7f8;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+.wp-caption2 {
+	text-align: center;
+	font-family: 'Philosopher';
+	font-weight: 900;
+	font-size: 20px;
+	color: #021109;
+	margin: 0px 30px 0px 0px;
+}
+.wp-caption3 {
+	display: block;
+	text-align: left;
+	margin: 50px;
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
+.wp-caption3 h2 {
+	margin: 0px 0px 0px 50px;
+}
+.wp-caption4 {
+	font-family: 'Marck Script';
+	border: 20px solid #090909;
+	color: chartreuse;
+	font-size: 25px;
+	margin: 50px 40px 50px 60px;
+	padding: 50px;
+}
+.wp-caption5 {
+	color: #021109;
+	font-size: 40px;
+	text-align: right;
+	margin: 0px 120px 0px 0px;
+}
+.wp-caption5 h2 {
+	margin: 0px 100px 0px 0px;
+}
+.scroll {
+	text-align: left;
+	color: #ff8b14;
+	overflow: auto;
+	max-width: 480px;
+	max-height: 350px;
+	margin: 30px 0px 30px 100px;
+	font-family: 'Marck Script';
+	font-weight: 900;
+}
+.wp-caption6 {
+	font-family: 'Comforter';
+	font-size: 30px;
+	color: gold;
+	margin: 80px 50px 50px 50px;
+}
+.wp-caption6 p {
+	margin: 20px 50px 10px 50px;
+	border: 5px solid #090909;
+	max-height: 200px;
+	max-width: 400px;
+	overflow: hidden;
+	display: inline-block;
+}
+.wp-caption6 h2 {
+	margin: 0px 0px 35px 70px;
+}
+.wp-caption7 p {
+	font-family: 'Marck Script';
+	font-size: 30px;
+	color: indigo;
+	margin: 50px 50px 50px 50px;
+	text-decoration: underline;
+}
+.wp-caption7 h2 {
+	margin: 0px 0px 35px 160px;
+}
+.wp-caption8 p {
+	font-family: Marck Script;
+	font-size: 35px;
+	color: indigo;
+	margin: 50px 50px 50px 50px;
+	text-decoration: line-through;
+	font-family: 'Comforter';
+	font-weight: 900;
+}
+.wp-caption8 h2 {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.top {
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Marck Script';
+	font-weight: 900;
+}
+.top a {
+	color: red;
+}
+.blank {
+	color: #021109;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
+.blank a {
+	color: #021109;
+}
+.footer-text {
+	font-size: 20px;
+	color: chartreuse;
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
